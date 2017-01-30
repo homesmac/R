@@ -1,0 +1,5 @@
+x=rnorm(100)
+y=rnorm(100)
+pdf('Figure.pdf')
+plot(x,y,xlab='this is the x-axis',ylab='this is the y-axis',main='Plot of X vs Y',col='green')
+dev.off()
